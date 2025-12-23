@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en"  class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>PORTFOLIO</title>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 bg-fixed">
+   
+    <!--HEADER SECTION-->
+   <header>
+        <div class=" mx-12 my-8 p-3 w-auto h-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] flex justify-between items-center flex-col xl:flex-row sm:flex-col sm:gap-5 px-20 border-2  border-white/5 rounded-[2rem] ">
+            <div class="xl:text-4xl sm:text-3xl font-bold bg-gradient-to-r from-[#60a5fa] to-[#3b82f6] bg-clip-text text-transparent transform hover:scale-105 transition duration-400">
+                <a href="#">SPARSH GUPTA</a> </div>
+            <div class=" ">
+                <ul class=" flex space-x-6 flex-wrap text-white xl:text-md sm:text-sm group">
+                    <li><a href="#home" class="inline-block transition-all duration-100 ease-linear border-b-0 hover:border-b-2 border-blue-500 text-white hover:bg-gradient-to-r hover:from-[#60a5fa] hover:to-[#3b82f6] hover:bg-clip-text hover:text-transparent ml-6">HOME</a></li>
+                    <li><a href="#about" class="inline-block transition-all duration-100 ease-linear border-b-0 hover:border-b-2 border-blue-500 text-white hover:bg-gradient-to-r hover:from-[#60a5fa] hover:to-[#3b82f6] hover:bg-clip-text hover:text-transparent">ABOUT ME</a></li>
+                    <li><a href="#skills" class="inline-block transition-all duration-100 ease-linear border-b-0 hover:border-b-2 border-blue-500 text-white hover:bg-gradient-to-r hover:from-[#60a5fa] hover:to-[#3b82f6] hover:bg-clip-text hover:text-transparent">SKILLS</a></li>
+                    <li><a href="#projects" class="inline-block transition-all duration-100 ease-linear border-b-0 hover:border-b-2 border-blue-500 text-white hover:bg-gradient-to-r hover:from-[#60a5fa] hover:to-[#3b82f6] hover:bg-clip-text hover:text-transparent">PROJECTS </a></li>
+                    <li><a href="#education" class="inline-block transition-all duration-100 ease-linear border-b-0 hover:border-b-2 border-blue-500 text-white hover:bg-gradient-to-r hover:from-[#60a5fa] hover:to-[#3b82f6] hover:bg-clip-text hover:text-transparent">EDUCATION</a></li> 
+                    <li><a href="#contact" class="inline-block transition-all duration-100 ease-linear border-b-0 hover:border-b-2 border-blue-500 text-white hover:bg-gradient-to-r hover:from-[#60a5fa] hover:to-[#3b82f6] hover:bg-clip-text hover:text-transparent">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--MAIN SECTION-->
+
+<!-- HOME PAGE -->
+<section id="home" class="mx-auto my-20 px-4 sm:px-6 md:px-12 flex flex-col justify-center items-center gap-5 text-center">
+    <h1 class=" my-12 font-heading text-4xl font-extrabold  sm:text-5xl md:text-6xl  leading-tight bg-gradient-to-r from-[#f3f4f6] to-[#60a5fa] bg-clip-text text-transparent">
+        Hi, I'm Sparsh Gupta
+    </h1>
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-[#9ca3af]">Frontend Web Developer</h2>
+    <p class="text-[#d1d5db] text-base sm:text-lg md:text-xl max-w-2xl">
+        I’m a passionate Computer Science student exploring the world of DSA, Web Development, and AI/ML. I love building things that solve real problems.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 mt-6">
+        <a href="#projects" class="w-full sm:w-auto">
+            <button class="cursor-pointer w-full sm:w-auto text-white px-6 py-4 rounded-[40px] font-bold bg-[#2563eb] shadow-[0_10px_30px_rgba(59,130,246,0.3)] transform hover:-translate-y-1 transition-all duration-100  hover:shadow-[0_15px_40px_rgba(59,130,246,0.8)]">
+                View My Work
+            </button>
+        </a>
+       <a href="https://drive.google.com/file/d/1bvtBy1jEwONqap1EhKXF4glgES8b2PCY/view?" target="_blank"> <button class=" cursor-pointer w-full sm:w-auto text-white px-6 py-4 rounded-[40px] font-bold bg-[#2563eb] transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]">
+            View Resume
+        </button>
+        </a>
+    </div>
+</section>
+
+
+<!-- ABOUT PAGE -->
+     <section id="about" class="grid xl:grid-cols-2 sm:grid-cols-1 sm:gap-10 mx-auto my-30 p-3 h-full w-auto ">
+        <div data-aos="fade-right"><div class="w-80 h-80 mx-auto rounded-full border-4 border-blue-400 shadow-[0_0_20px_rgba(96,165,250,0.7)] relative overflow-hidden">
+  <img src="./images/aboutprofile.jpg" alt="My Photo" class="w-full h-full object-cover object-top " />
+</div>
+</div>
+        <div class="w-[90%] h-auto " data-aos="fade-left">
+            <h2 class="text-center text-5xl mb-20  font-extrabold leading-tight bg-gradient-to-r from-[#f3f4f6] to-[#60a5fa] bg-clip-text text-transparent">About Me</h2>
+            <p class="text-[#d1d5db] text-xl sm:text-center ">I’m currently pursuing B.Tech in Computer Science Engineering at Bundelkhand Institute of Engineering & Technology (BIET) Jhansi. I have a strong interest in Web Development, DSA and AI/ML, and I’m continuously working to improve my skills in these areas. <br>I enjoy turning ideas into live experiences using HTML, CSS, JavaScript, and Tailwind. <br>
+            Currently, I’m exploring React and UI animations to take my projects to the next level. <br>
+            Beyond coding, I believe in constant learning, solving problems creatively, and building things that make an impact.</p>
+        </div>
+     </section>
+
+<!-- SKILL PAGE -->
+      <section id="skills" class=" mx-auto my-30 p-3 h-full w-[60%]">
+        <h2 class="text-center text-5xl mb-20  font-extrabold leading-tight bg-gradient-to-r from-[#f3f4f6] to-[#60a5fa] bg-clip-text text-transparent">Technical Skills</h2>
+        <div class="grid xl:grid-cols-3 gap-10 sm:grid-cols-1 lg:grid-cols-2">
+
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between ">
+                    <h3 class="text-white text-xl ">HTML/CSS</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#4ade80] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">EXPERT</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[95%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">HTML5</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">CSS3</span>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500   hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between">
+                    <h3 class="text-white text-xl">JAVASCRIPT</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#60a5fa] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">ADVANCED</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[75%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">DOM</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Functions</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Async</span>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between">
+                    <h3 class="text-white  text-md sm:text-xl">C PROGRAMMING</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#4ade80] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">EXPERT</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[95%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Array</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Function</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Strings</span>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between">
+                    <h3 class="text-white  text-md sm:text-xl">C++ PROGRAMS</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#4ade80] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">EXPERT</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[95%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">OOPS</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">STL</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Pointer</span>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between">
+                    <h3 class="text-white  text-md sm:text-xl">TAILWIND CSS</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#60a5fa] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">ADVANCED</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[80%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Layout</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Flex/Grid</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Styling</span>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between">
+                    <h3 class="text-white text-xl">DSA</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#a78bfa] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">INTERMDIATE</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[60%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Linked-list</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Stacks/Queues</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Sorting</span>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between">
+                    <h3 class="text-white text-xl">GIT/GITHUB</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#a78bfa] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">INTERMDIATE</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[60%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Commit</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Branches</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Push/Pull</span>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between">
+                    <h3 class="text-white text-xl">REACT JS</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#fb923c] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">FAMILIAR</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[30%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Components</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">State/Props</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Hooks</span>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-t-4 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class="flex justify-between">
+                    <h3 class="text-white text-xl">PYTHON</h3>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-[#fb923c] bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">FAMILIAR</span>
+                </div>
+                <div class="h-4 border rounded-[2rem] bg-[#9ca3af]">
+                    <div class="h-[99%] border-none rounded-[2rem] w-[25%] bg-gradient-to-r from-[#3b82f6] to-[#2563eb] "> </div>
+                </div>
+                <div class="skill-tags">
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Function</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">OOPS</span>
+                    <span class="h-auto w-auto border rounded-[2rem] text-xs text-white bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] p-1">Libraries</span>
+                </div>
+            </div>
+         </div>
+    </section>
+
+
+    <!-- PROJECT -->
+    <section  id="projects" class=" mx-auto my-30 p-3 h-full w-[70%]">
+        <h2 class="text-center text-5xl mb-20  font-extrabold leading-tight bg-gradient-to-r from-[#f3f4f6] to-[#60a5fa] bg-clip-text text-transparent">Projects</h2>
+        <div class="grid xl:grid-cols-3 gap-10 sm:grid-cols-1 lg:grid-cols-2" >
+           
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-1 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class=" h-[45%] w-[20%] border-2 border-blue-500 text-blue bg-blue-500 object-cover" ><img src="./images/TICTACTOE.png" alt=""></i></div>
+                <div class="text-white text-3xl font-bold ">Tic Tac Toe Game</div>
+                <div class="text-[#d1d5db] font-normal">A Tic-Tac-Toe Game by using HTML , CSS and JAVASCRIPT </div>
+                <div>
+                 <a href="https://tic-tac-toe-sparsh.vercel.app/" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[#2563eb]">🔗 Live Demo</button></a>
+                 <a href="https://github.com/Sparsh10t/TIC-TAC-TOE-SPARSH" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]">💻 Source Code</button></a>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-1 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class=" h-[45%] w-[20%] border-2 border-blue-500 text-blue bg-blue-500 object-cover" ><img src="./images/rock-paper-scissor.png" alt=""></i></div>
+                <div class="text-white text-3xl font-bold ">Rock-Paper-Scissor </div>
+                <div class="text-[#d1d5db] font-normal">A Rock-Paper-Scissor Game by using HTML , CSS and JAVASCRIPT </div>
+                <div>
+                <a href="https://rock-paper-scissors-sparsh.vercel.app/" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[#2563eb]">🔗 Live Demo</button> </a>
+                 <a href="https://github.com/Sparsh10t/ROCK-PAPER-SCISSORS-SPARSH" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]">💻 Source Code</button></a>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-1 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class=" h-[45%] w-[20%] border-2 border-blue-500 text-blue bg-blue-500 object-cover" ><img src="./images/calculator.png" alt=""></i></div>
+                <div class="text-white text-3xl font-bold ">Simple Calculator</div>
+                <div class="text-[#d1d5db] font-normal">A simple calculator build using HTML , CSS and JAVASCRIPT </div>
+                <div>
+                <a href="https://sparsh-portfolio-calc.vercel.app/" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[#2563eb]">🔗 Live Demo</button></a>
+                 <a href="https://github.com/Sparsh10t/CALCULATOR-SPARSH" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]">💻 Source Code</button></a>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-1 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class=" h-[45%] w-[20%] border-2 border-blue-500 text-blue bg-blue-500 object-cover" ><img src="./images/train.png" alt=""></i></div>
+                <div class="text-white text-3xl font-bold ">Train Management</div>
+                <div class="text-[#d1d5db] font-normal">A train Management system built by using cpp language </div>
+                <div>
+                <a href="https://drive.google.com/file/d/108iyTnjCUDmgLGW_wHt9df3axZ5HsPsO/view?" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[#2563eb]">🔗 Live Demo</button></a>
+                 <a href="https://github.com/Sparsh10t/Train-Management-Sparsh" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]">💻 Source Code</button></a>
+                 </div>
+            </div>
+             <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-1 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class=" h-[45%] w-[20%] border-2 border-blue-500 text-blue bg-blue-500 object-cover" ><img src="./images/cart.png" alt=""></i></div>
+                <div class="text-white text-3xl font-bold ">Amazon Clone</div>
+                <div class="text-[#d1d5db] font-normal">A clone of a online shopping platform by using HTML and CSS </div>
+                <div>
+                 <a href="https://e-commerce-umber-beta.vercel.app/" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[#2563eb]">🔗 Live Demo</button></a>
+                 <a href="https://github.com/Sparsh10t/E-commerce.git" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]">💻 Source Code</button></a>
+                </div>
+            </div>
+            <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-1 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class=" h-[45%] w-[20%] border-2 border-blue-500 text-blue bg-blue-500 object-cover" ><img src="./images/personal.png" alt=""></i></div>
+                <div class="text-white text-3xl font-bold ">Portfolio</div>
+                <div class="text-[#d1d5db] font-normal">A personal portfolio built by using HTML,TAILWIND CSS and JAVASCRIPT  </div>
+                <div>
+                <a href="https://sparsh-portfolio-tau.vercel.app/" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[#2563eb]">🔗 Live Demo</button></a>
+                <a href="https://github.com/Sparsh10t/SPARSH-PORTFOLIO" target="_blank"><button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]">💻 Source Code</button></a>
+                </div>
+            </div>
+             <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-1 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class=" h-[45%] w-[20%] border-2 border-blue-500 text-blue bg-blue-500 object-cover" ><img src="./images/currency.png" alt=""></i></div>
+                <div class="text-white text-3xl font-bold ">Currency Converter</div>
+                <div class="text-[#d1d5db] font-normal">⚙ In Progress — Launching Soon</div>
+               
+            </div>
+             <div class="h-auto w-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px]  border border-white/5 rounded-[2rem] p-6  hover:border-1 hover:border-blue-500  transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(59,130,246,0.3)] flex flex-col gap-5" data-aos="fade-up">
+                <div class=" h-[45%] w-[20%] border-2 border-blue-500 text-blue bg-blue-500 object-cover" ><img src="./images/expense.png" alt=""></i></div>
+                <div class="text-white text-3xl font-bold ">Expense <br> Tracker</div>
+                <div class="text-[#d1d5db] font-normal">UPCOMING PROJECT </div>
+        
+            </div>
+        </div>
+    </section>
+
+
+    <!-- EDUCATION -->
+     <section id="education" class="py-20 px-6 md:px-12">
+        <div class="max-w-7xl mx-auto">
+            
+            <!-- Section Title -->
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-gray-100 to-blue-400 bg-clip-text text-transparent">
+                Education 
+            </h2>
+
+            <!-- Timeline Container -->
+            <div class="relative max-w-4xl mx-auto">
+                
+                <!-- Vertical Timeline Line -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-blue-500 via-blue-600 to-blue-800 hidden md:block"></div>
+
+                <!-- Mobile Timeline Line (Left Side) -->
+                <div class="absolute left-9 w-1 h-full bg-gradient-to-b from-blue-500 via-blue-600 to-blue-800 md:hidden"></div>
+
+                <!-- Timeline Items -->
+                <div class="space-y-16 md:space-y-20">
+
+                    <!-- Item 1 - Left Side (Desktop) -->
+                    <div class="relative flex flex-col md:flex-row items-center group" data-aos="fade-right">
+                        <!-- Content Card -->
+                        <div class="w-full md:w-5/12 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-105 ml-20 md:ml-0">
+                            <!-- Year -->
+                            <div class="flex items-center gap-2 text-blue-400 font-bold text-lg mb-2">
+                                <span>📅</span>
+                                <span>2024 - 2028</span>
+                            </div>
+                            <!-- Title -->
+                            <h3 class="text-2xl font-semibold text-gray-100 mb-3">
+                                Bachelor of Computer Science
+                            </h3>
+                            <!-- Institution -->
+                            <p class="text-blue-400 font-medium mb-3">
+                                Bundelkhand Institute Of Engineering And Technology , Jhansi
+                            </p>
+                            <!-- Description -->
+                            <p class="text-gray-400 leading-relaxed mb-4">
+                                Specialized in Software Engineering and Web Development. 
+                            </p>
+                            <!-- Tags -->
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">SGPA: 8.05</span>
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">Data Structures</span>
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">Algorithms</span>
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">Web Dev</span>
+                            </div>
+                            
+                            <!-- Connector Line to Timeline (Desktop Only) -->
+                            <div class="hidden md:block absolute top-8 -right-8 w-8 h-0.5 bg-blue-500/50"></div>
+                        </div>
+
+                        <!-- Timeline Icon (Center Circle) -->
+                        <div class="absolute left-9 md:left-1/2 transform md:-translate-x-1/2 w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-3xl border-4 border-black shadow-lg shadow-blue-500/30 group-hover:scale-110 transition-transform duration-300 z-10">
+                            🎓
+                        </div>
+
+                        <!-- Spacer for Right Side (Desktop) -->
+                        <div class="hidden md:block md:w-5/12"></div>
+                    </div>
+
+                    <!-- Item 2 - Right Side (Desktop) -->
+                    <div class="relative flex flex-col md:flex-row-reverse items-center group" data-aos="fade-left">
+                        <!-- Content Card -->
+                        <div class="w-full md:w-5/12 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-105 ml-20 md:ml-0">
+                            <!-- Year -->
+                            <div class="flex items-center gap-2 text-blue-400 font-bold text-lg mb-2">
+                                <span>📅</span>
+                                <span>2023-2024</span>
+                            </div>
+                            <!-- Title -->
+                            <h3 class="text-2xl font-semibold text-gray-100 mb-3">
+                                Intermediate
+                            </h3>
+                            <!-- Institution -->
+                            <p class="text-blue-400 font-medium mb-3">
+                                 Delhi Public International School , Agra 
+                            </p>
+                            <!-- Description -->
+                            <p class="text-gray-400 leading-relaxed mb-4">
+                                Stream:- PCM  ||  Board:- Central Board Of Secondary Education
+                            </p>
+                            <!-- Tags -->
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">88%</span>
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">Physics</span>
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">Chemistry</span>
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">Maths</span>
+                            </div>
+                            
+                            <!-- Connector Line to Timeline (Desktop Only) -->
+                            <div class="hidden md:block absolute top-8 -left-8 w-8 h-0.5 bg-blue-500/50"></div>
+                        </div>
+
+                        <!-- Timeline Icon (Center Circle) -->
+                        <div class="absolute left-9 md:left-1/2 transform md:-translate-x-1/2 w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-3xl border-4 border-black shadow-lg shadow-blue-500/30 group-hover:scale-110 transition-transform duration-300 z-10">
+                            🏫
+                        </div>
+
+                        <!-- Spacer for Left Side (Desktop) -->
+                        <div class="hidden md:block md:w-5/12"></div>
+                    </div>
+
+                    <!-- Item 3 - Left Side (Desktop) -->
+                    <div class="relative flex flex-col md:flex-row items-center group" data-aos="fade-right">
+                        <!-- Content Card -->
+                        <div class="w-full md:w-5/12 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-105 ml-20 md:ml-0">
+                            <!-- Year -->
+                            <div class="flex items-center gap-2 text-blue-400 font-bold text-lg mb-2">
+                                <span>📅</span>
+                                <span>2021-2022</span>
+                            </div>
+                            <!-- Title -->
+                            <h3 class="text-2xl font-semibold text-gray-100 mb-3">
+                                High School
+                            </h3>
+                            <!-- Institution -->
+                            <p class="text-blue-400 font-medium mb-3">
+                                Dayanand Bal Mandir School , Agra
+                            </p>
+                            <!-- Description -->
+                            <p class="text-gray-400 leading-relaxed mb-4">
+                                Board:- Central Board Of Secondary Education
+                            </p>
+                            <!-- Tags -->
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium">93.6 %</span>
+                            </div>
+                            
+                            <!-- Connector Line to Timeline (Desktop Only) -->
+                            <div class="hidden md:block absolute top-8 -right-8 w-8 h-0.5 bg-blue-500/50"></div>
+                        </div>
+
+                        <!-- Timeline Icon (Center Circle) -->
+                        <div class="absolute left-9 md:left-1/2 transform md:-translate-x-1/2 w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-3xl border-4 border-black shadow-lg shadow-blue-500/30 group-hover:scale-110 transition-transform duration-300 z-10">
+                            🏫
+                        </div>
+
+                        <!-- Spacer for Right Side (Desktop) -->
+                        <div class="hidden md:block md:w-5/12"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- CONTACT -->
+     <section  id="contact" class=" mx-auto my-30 p-3 h-full w-[70%]">
+
+        <h2 class="text-center text-5xl mb-20  font-extrabold leading-tight bg-gradient-to-r from-[#f3f4f6] to-[#60a5fa] bg-clip-text text-transparent">Contact Me</h2>
+      
+        <div class="grid xl:grid-cols-2 gap-20 sm:grid-cols-1">
+          
+   
+         <div class=" bg-[rgba(255,255,255,0.03)] p-4 border border-[rgba(255,255,255,0.05)] rounded-[1rem] flex flex-col gap-10 " data-aos="fade-up">
+        <p class="text-white" data-aos="fade-up">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+        <div class="bg-[rgba(255,255,255,0.05)] text-lg text-[#d1d5db] p-2 border border-[rgba(255,255,255,0.1)] rounded-[1rem]" data-aos="fade-up">
+            📧E-Mail:-
+            <a class="text-blue-500" href="mailto:sparshgupta10t@gmail.com">sparshgupta10t@gmail.com</a>
+        </div>
+        <div class="bg-[rgba(255,255,255,0.05)] text-lg text-[#d1d5db] p-2 border border-[rgba(255,255,255,0.1)] rounded-[1rem]" data-aos="fade-up">
+        📞Contact no.:-
+            <a class="text-blue-500" href="tel:+919027463157">+91 9027463157</a>
+      </div>
+        <div class="bg-[rgba(255,255,255,0.05)] text-lg text-[#d1d5db] p-2 border border-[rgba(255,255,255,0.1)] rounded-[1rem]" data-aos="fade-up">
+         📍 Agra | U.P. | INDIA
+      </div>
+        <div class="flex gap-4 justify-center items-center" data-aos="fade-up">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/sparsh-gupta-59711a325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="group text-[#d1d5db]">
+        <div class="h-14 w-14 bg-[rgba(255,255,255,0.05)] hover:bg-blue-400 hover:border-2 hover:border-blue-500 rounded-full flex items-center justify-center p-3 transition-all duration-300">
+            <img src="./images/linkedin.png" class="w-full h-full object-contain" alt="LinkedIn">
+        </div>
+        LinkedIn
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/Sparsh10t" target="_blank" class="group text-[#d1d5db]">
+        <div class="h-14 w-14 bg-[rgba(255,255,255,0.05)] hover:bg-blue-400 hover:border-2 hover:border-blue-500 rounded-full flex items-center justify-center p-3 transition-all duration-300">
+            <img src="./images/github.png" class="w-full h-full object-contain" alt="GitHub">
+        </div>
+        GitHub
+    </a>
+
+    <!-- Twitter/X -->
+    <a href="https://x.com/Sparsh_gupta10t?t=FvlTDAcu0iGNC6bwiutQgg&s=09" target="_blank" class="group text-[#d1d5db] text-center">
+        <div class="h-14 w-14 bg-[rgba(255,255,255,0.05)] hover:bg-blue-400 hover:border-2 hover:border-blue-500 rounded-full flex items-center justify-center p-3 transition-all duration-300">
+            <img src="./images/twitter.webp" class="w-full h-full object-contain" alt="X">
+        </div>
+        X 
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/code_blitz_n?igsh=OXZoMWg1ZTBoMGdl" target="_blank" class="group text-[#d1d5db]">
+        <div class="h-14 w-14 bg-[rgba(255,255,255,0.05)] hover:bg-blue-400 hover:border-2 hover:border-blue-500 rounded-full flex items-center justify-center p-3 transition-all duration-300">
+            <img src="./images/instagram.jpg" class="w-full h-full object-contain" alt="Instagram">
+        </div>
+        Instagram
+    </a>
+</div>
+    </div>
+      
+      
+        <div class=" bg-[rgba(255,255,255,0.03)] p-4 border border-[rgba(255,255,255,0.05)] rounded-[1rem]" data-aos="fade-up">
+            <form class="flex flex-col gap-5 justify-center " action="https://formspree.io/f/xovkkrge"   method="POST" onsubmit="resetFormAfterSubmit(event)"  data-aos="fade-up">
+                    <h3 class="text-white text-xl after:content-['*'] after:text-red-500">Your Full Name</h3>
+              
+                <input class="bg-[rgba(255,255,255,0.05)] text-[#d1d5db] p-2 border border-[rgba(255,255,255,0.1)] rounded-[1rem]" type="text" id="fullname" name="Fullname" placeholder="Full Name" data-aos="fade-up">
+                <h3 class="text-white text-xl after:content-['*'] after:text-red-500">Your E-Mail Address</h3>
+                <input class="bg-[rgba(255,255,255,0.05)] text-[#d1d5db] p-2 border border-[rgba(255,255,255,0.1)] rounded-[1rem]" type="email" id="email" name="E-Mail Address" placeholder="Email address" data-aos="fade-up">                
+             <h3 class="text-white text-xl after:content-['*'] after:text-red-500">Your Message</h3>
+                <textarea class="bg-[rgba(255,255,255,0.05)] text-[#d1d5db] p-2 border border-[rgba(255,255,255,0.1)] rounded-[1rem]" id="msg"  rows="4" cols="40" name="Message" placeholder="Type your message..." data-aos="fade-up"></textarea>
+                <button class="cursor-pointer text-white px-2 py-1 m-1 transform hover:-translate-y-1 transition-all duration-100 shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.5)]  rounded-[12px] font-normal bg-[#2563eb]" data-aos="fade-up">Send</button>
+            </form>
+        
+        </div>
+      </div>  
+     
+    </section>
+<!--FOOTER SECTION-->
+    <footer>
+        <div class=" text-white p-3 w-auto h-auto bg-[rgba(255,255,255,0.03)] backdrop-blur-[10px] flex justify-center items-center xl:flex-row sm:flex-col sm:gap-5 px-20 border-2  border-white/5 ">
+            © 2025 SPARSH GUPTA  ||  Built with code and passion
+        </div>
+    </footer>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset:100,
+        duration:1000,
+    });
+
+    function resetFormAfterSubmit(e) {
+    setTimeout(() => {
+        e.target.reset();  // Clears all form fields after submission
+    }, 1000); // Delay to allow Formspree to process
+}
+
+  </script>
+  
+</body>
+</html>
