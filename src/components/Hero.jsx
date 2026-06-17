@@ -4,9 +4,10 @@ import { useTypingEffect } from '../hooks/useTypingEffect';
 
 export default function Hero() {
   const typingText = useTypingEffect([
-    'Frontend Developer',
+    'Full-Stack Developer',
     'Problem Solver',
-    'Software Developer'
+    'Software Developer',
+    'AI Web Developer',
   ]);
 
   return (
