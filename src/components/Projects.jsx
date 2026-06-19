@@ -17,7 +17,7 @@ export default function Projects() {
     {
      title: 'InventraAI',
      icon: inva,
-     description: 'A React-based web app to track income, expenses, and financial analytics through an interactive dashboard.',
+     description: 'Full-stack inventory management platform with AI chatbot, analytics, and forecasting capabilities.',
      liveLink: 'https://inventra-ai-ai-inventory-management.vercel.app/',
      codeLink: 'https://github.com/Sparsh10t/InventraAI-AI-inventory-management-system.git' 
     },

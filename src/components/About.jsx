@@ -40,16 +40,15 @@ export default function About() {
           
           <div className="space-y-6 text-gray-300 text-lg sm:text-xl leading-relaxed">
             <p>
-              I’m currently pursuing my B.Tech in Computer Science Engineering at the{' '}
+              I’m currently pursuing my B.Tech in Computer Science Engineering at the
               <span className="text-blue-400 font-semibold">Bundelkhand Institute of Engineering & Technology (BIET) Jhansi</span>. 
               I have a strong interest in Web Development, Data Structures & Algorithms, and AI/ML, and I’m continuously working to improve my skills in these areas.
             </p>
             <p>
-              I enjoy turning ideas into live experiences using HTML, CSS, JavaScript, and Tailwind CSS. 
-              Currently, I’m exploring React and UI animations to take my projects to the next level.
+              Over the past year, I have built a strong foundation in programming, completed core web development concepts, worked on personal projects, and consistently improved my problem-solving abilities through coding practice.
             </p>
             <p>
-              Beyond coding, I believe in constant learning, solving problems creatively, and building things that make an impact.
+              Looking ahead, I aim to gain industry experience through internships, build impactful AI-powered applications, and grow into a skilled software engineer capable of creating innovative technology solutions.
             </p>
           </div>
         </motion.div>
